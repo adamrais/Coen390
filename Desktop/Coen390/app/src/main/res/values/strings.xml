@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">FarmingApp</string>
+    <string name="enter_your_username">Enter your username</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="login">Login</string>
+    <string name="logo">logo</string>
+    <string name="logout">Logout</string>
+    <string name="add_a_measurement">Add a measurement</string>
+    <string name="welcome_to_you_garden">Welcome to you garden</string>
+    <string name="herbarium">Herbarium</string>
+    <string name="check_your_plants">Check your plants!</string>
+    <string name="what_do_you_want_to_do_today">What do you want to do today</string>
+    <string name="add_a_plant">Add a plant</string>
+</resources>
