@@ -27,6 +27,8 @@ public class MainActivity extends AppCompatActivity implements  View.OnClickList
     TextView changeSignupModeTextView;
     EditText passwordEditText;
 
+    //test github
+
     // function to jump to profile activity
     public void profileActivity(){
 
