@@ -2,19 +2,26 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.farmingapp">
 
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name = "android.permission.DISABLE_KEYGUARD"/>
 
     <application
         android:name=".parseServer"
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:icon="@mipmap/planteaa"
+        android:label="Plantlea"
         android:supportsRtl="true"
-        android:theme="@style/no_title">
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,10 +29,75 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ProfileActivity">
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".plantProfile" />
+        <activity android:name=".herbarium">
 
-
+        <meta-data
+            android:name="android.app.searchable"
+            android:resource="@xml/searchable">
+        </meta-data>
         </activity>
+        <activity android:name=".addPlant" />
+        <activity android:name=".singlePlantProfile" />
+        <activity android:name=".measurementPage" />
+        <activity
+            android:name=".PopHelp"
+            android:theme="@style/no_title.CustomTheme" />
+        <activity
+            android:name=".aboutPage"
+            android:theme="@style/no_title.CustomTheme" />
+        <activity android:name=".plant_1" />
+        <activity android:name=".plant_2" />
+        <activity android:name=".plant_3" />
+        <activity android:name=".plant_4" />
+        <activity android:name=".plant_5" />
+        <activity android:name=".Weather" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <activity android:name=".Camera" />
+        <activity android:name=".Bluetooth" />
+        <activity android:name=".PopHelp2"
+            android:theme="@style/no_title.CustomTheme"/>
+        <activity android:name=".PopHelp3"
+            android:theme="@style/no_title.CustomTheme"/>
+        <activity android:name=".PopHelp4"
+            android:theme="@style/no_title.CustomTheme"/>
+        <activity android:name=".PopHelp5"
+            android:theme="@style/no_title.CustomTheme"/>
+        <activity android:name=".PopHelp6"
+            android:theme="@style/no_title.CustomTheme"/>
+        <activity
+            android:name=".AlarmMainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <receiver android:name=".AlarmReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.LOCALE_CHANGED" />
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:name=".AlarmAlertActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard|navigation"
+            android:theme="@android:style/Theme.Dialog"
+            android:excludeFromRecents="true"
+            android:taskAffinity=""/>
     </application>
 
 </manifest>

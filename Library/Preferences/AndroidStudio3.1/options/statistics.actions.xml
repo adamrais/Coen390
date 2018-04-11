@@ -1,0 +1,61 @@
+<application>
+  <component name="ActionsCollector">
+    <counts>
+      <entry action="$Delete" count="6" />
+      <entry action="$Paste" count="132" />
+      <entry action="$Undo" count="296" />
+      <entry action="Android Lint Quick Fixes" count="5" />
+      <entry action="Android Quick Fixes" count="2" />
+      <entry action="CheckinProject" count="2" />
+      <entry action="CleanGradleProject" count="8" />
+      <entry action="Collapse empty tag" count="8" />
+      <entry action="CommentByBlockComment" count="1" />
+      <entry action="CopyPaths" count="1" />
+      <entry action="CopyReference" count="1" />
+      <entry action="Create Class from Usage" count="2" />
+      <entry action="Debug" count="3" />
+      <entry action="Delete Catch" count="1" />
+      <entry action="Edit method contract" count="1" />
+      <entry action="EditSource" count="1" />
+      <entry action="EditorBackSpace" count="3552" />
+      <entry action="EditorChooseLookupItem" count="503" />
+      <entry action="EditorCopy" count="132" />
+      <entry action="EditorCut" count="1" />
+      <entry action="EditorDown" count="375" />
+      <entry action="EditorEnter" count="411" />
+      <entry action="EditorLeft" count="147" />
+      <entry action="EditorLeftWithSelection" count="70" />
+      <entry action="EditorLineEnd" count="1" />
+      <entry action="EditorPaste" count="65" />
+      <entry action="EditorRight" count="397" />
+      <entry action="EditorTab" count="50" />
+      <entry action="EditorUp" count="85" />
+      <entry action="Extract string resource" count="3" />
+      <entry action="Find" count="3" />
+      <entry action="FindUsages" count="2" />
+      <entry action="Fix Variable Type" count="2" />
+      <entry action="GotoDeclaration" count="3" />
+      <entry action="HideAllWindows" count="4" />
+      <entry action="Implement methods" count="1" />
+      <entry action="Initialize variable" count="1" />
+      <entry action="MakeGradleProject" count="11" />
+      <entry action="NewClass" count="6" />
+      <entry action="QuickImplementations" count="1" />
+      <entry action="RebuildGradleProject" count="3" />
+      <entry action="Reset to default namespace" count="1" />
+      <entry action="Resume" count="22" />
+      <entry action="Run" count="87" />
+      <entry action="Run inspection on ..." count="1" />
+      <entry action="SaveAll" count="111" />
+      <entry action="SearchEverywhere" count="1" />
+      <entry action="StepOver" count="13" />
+      <entry action="Stop" count="2" />
+      <entry action="Suppress_ Add tools_ignore= LabelFor  attribute" count="2" />
+      <entry action="ToggleLineBreakpoint" count="26" />
+      <entry action="Un-inject Language/Reference" count="1" />
+      <entry action="Vcs.UpdateProject" count="1" />
+      <entry action="XDebugger.CopyValue" count="4" />
+      <entry action="template.create.ActivityEmpty Activity" count="3" />
+    </counts>
+  </component>
+</application>

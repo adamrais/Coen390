@@ -1,0 +1,19 @@
+<application>
+  <component name="ToolbarClicksCollector">
+    <counts>
+      <entry action="Debug@NavBarToolbar" count="3" />
+      <entry action="MakeGradleProject@NavBarToolbar" count="11" />
+      <entry action="Resume@DebuggerToolbar" count="22" />
+      <entry action="Run@NavBarToolbar" count="87" />
+      <entry action="StepOver@DebuggerToolbar" count="13" />
+      <entry action="Stop@DebuggerToolbar" count="1" />
+      <entry action="Stop@NavBarToolbar" count="1" />
+      <entry action="com.android.tools.idea.common.actions.IssueNotificationAction@NlRhsConfigToolbar" count="2" />
+      <entry action="com.android.tools.idea.common.actions.SetZoomAction@NlRhsConfigToolbar" count="27" />
+      <entry action="com.android.tools.idea.fd.actions.HotswapAction@NavBarToolbar" count="85" />
+      <entry action="com.android.tools.idea.uibuilder.property.ViewAllPropertiesAction@TOOL_WINDOW_TOOLBAR" count="1" />
+      <entry action="com.android.tools.idea.uibuilder.property.editors.BrowsePanel$BrowseAction@unknown" count="3" />
+      <entry action="com.intellij.ui.CommonActionsPanel$MyActionButton@ToolbarDecorator" count="6" />
+    </counts>
+  </component>
+</application>

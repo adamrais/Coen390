@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/swipeToRefresh"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_light"
+    tools:context="com.farmingapp.plantProfile">
+
+    <TextView
+        android:id="@+id/welcomeMessage2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:gravity="center"
+        android:text="@string/welcome_to_your_garden"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+    <ListView
+        android:id="@+id/plantListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/welcomeMessage2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:textColor="#8B4513" />
+
+    <Button
+        android:id="@+id/addPlant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/welcomeMessage2"
+        android:layout_marginTop="12dp"
+        android:background="@android:color/holo_blue_bright"
+        android:onClick="addPlant"
+        android:text="@string/add_plant"
+        android:textStyle="bold"/>
+
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/emptyElement"
+        android:text="@string/your_garden_is_empty_add_a_plant"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:visibility="gone"
+        android:layout_centerInParent="true"
+        android:textColor="@android:color/black"/>
+</RelativeLayout>
+</android.support.v4.widget.SwipeRefreshLayout>

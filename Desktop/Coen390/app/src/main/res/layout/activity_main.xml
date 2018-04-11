@@ -5,17 +5,18 @@
     android:id="@+id/backgroundRelativeLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/background_light"
     tools:context="com.farmingapp.MainActivity">
 
     <ImageView
         android:id="@+id/logoImageView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="270dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:contentDescription="@string/logo"
-        app:srcCompat="@drawable/logocoen390" />
+        app:srcCompat="@drawable/plantea" />
 
     <EditText
         android:id="@+id/usernameEditText"

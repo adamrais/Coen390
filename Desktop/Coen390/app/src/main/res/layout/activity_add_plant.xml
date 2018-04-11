@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.farmingapp.addPlant">
+
+    <EditText
+        android:id="@+id/plantName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/savePlant"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="36dp"
+        android:ems="10"
+        android:hint="name of your plant"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/savePlant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="31dp"
+        android:onClick="savePlant"
+        android:text="save" />
+
+    <ImageView
+        android:id="@+id/cameraImage"
+        android:layout_width="260dp"
+        android:layout_height="285dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:contentDescription="camera image"
+
+        app:srcCompat="@android:drawable/ic_menu_camera" />
+</android.widget.RelativeLayout>

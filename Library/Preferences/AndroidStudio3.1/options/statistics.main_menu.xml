@@ -1,0 +1,10 @@
+<application>
+  <component name="MainMenuCollector">
+    <counts>
+      <entry path="Build -&gt; Clean Project" count="8" />
+      <entry path="Build -&gt; Rebuild Project" count="3" />
+      <entry path="VCS -&gt; Commit" count="1" />
+      <entry path="VCS -&gt; Update Project" count="1" />
+    </counts>
+  </component>
+</application>
